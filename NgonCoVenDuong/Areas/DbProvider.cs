@@ -50,7 +50,7 @@ namespace DocumentManagement.Model
         }
         public Db()
         {
-            _connectionString = "Server=DESKTOP-FRE556C\\SQLEXPRESS;Database=LoginProcedure;Trusted_Connection=True;";
+            _connectionString = "Server=DESKTOP-FRE556C\\SQLEXPRESS;Database=LoginLinQ;Trusted_Connection=True;";
             //  _connectionString = "Data Source=DESKTOP-FJ46P29\\MSSQLSERVER2019;Initial Catalog=SoHoa;User ID=sa;Password=123456";
             _connection = new SqlConnection(_connectionString);
             if (_connection.State == ConnectionState.Closed)
